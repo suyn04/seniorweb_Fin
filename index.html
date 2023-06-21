@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="container">
+        <div class="logo">
+          <a href="./index.html">Weather</a>
+        </div>
+      </div>
+    </header>
+    <!-- header -->
+    <div class="contents">
+      <div class="daily">
+        <h1 id="baseDay"></h1>
+        <p id="fcstSky"></p>
+        <p id="temp"></p>
+      </div>
+      <div class="weekly">
+        <p class="pweekly">Weekly</p>
+       <table id="temperature-info">
+       </table>
+      </div>
+      <div class="site">
+        <p class="psite">날씨 사이트</p>
+        <div class="site1">
+          <a href="http://www.weather.go.kr">
+            <img src="./images/기상청.png" alt="기상청">
+          </a>
+        </div>
+        <div class="site2">
+          <a href="https://www.accuweather.com">
+            <img src="./images/accuweather.png" alt="accuweather">
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- contents -->
+  </div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="./script/script1.js"></script>
+<script src="./script/script2.js"></script>
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</body>
+</html>
